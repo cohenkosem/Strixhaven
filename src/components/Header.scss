@@ -1,0 +1,41 @@
+.page-header{
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    font-family:"Ringside Condensed A"
+}
+
+.college-logo{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+.college-logo img{
+    height: 70px;
+}
+
+.college-logo-text{
+    font-size: 18px;
+    line-height: 52px;
+    height: 52px;
+    font-weight: 500 !important;
+}
+
+.navbar{
+    button{
+        background-color: transparent !important;
+        color: black !important;
+        margin: 0px 5px;
+        padding: 0px 20px;
+        font-size: 18px;
+        line-height: 52px;
+        height: 52px;
+        font-weight: 500 !important;
+    }
+
+    button:hover {
+        background-color: black !important;
+        border-radius: 25px;
+        color:white !important
+    }
+}
